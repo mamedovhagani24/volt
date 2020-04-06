@@ -1,0 +1,55 @@
+a {
+  display: block;
+  text-decoration: none !important;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+
+.header {
+  padding: 17px 0;
+}
+
+#gmail {
+  font-size: 11px;
+  color: #000000;
+}
+
+#gmail:hover {
+  color: orange;
+}
+
+#phone {
+  color: #000000;
+  font-weight: normal;
+  font-size: 17px;
+}
+
+#search_input {
+  width: 78%;
+  background-color: #e6e6e6;
+  padding: 5px 19px !important;
+}
+
+#search_input:focus {
+  border: 1px solid orange;
+}
+
+button.btn-orange {
+  background-color: #e69500;
+  color: #ffffff;
+  padding: 11px 13px !important;
+  border-radius: 14px;
+  font-size: 15px;
+  box-shadow: 2px 2px 10px rgba(240, 127, 35, 0.5);
+}
+
+button.btn-orange:hover {
+  color: #fff;
+  background-color: orangered;
+}
+
+button.btn-nonborder:hover {
+  color: orange;
+}
